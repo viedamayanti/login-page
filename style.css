@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(120deg, #93c7e8, #b06ccd);
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  background-color: #fff;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  border-radius: 10px;
+}
+
+.container .content {
+  width: 700px;
+  height: 30vh;
+  text-align: center;
+}
+
+h3 {
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: #8744a3;
+}
+.container form {
+  font-size: 15px;
+}
+input {
+  width: 250px;
+  height: 30px;
+  position: relative;
+  margin: 15px 0;
+  border: 1px solid silver;
+  border-radius: 3px;
+}
+.reg-btn,
+.login-btn {
+  background-color: #8744a3;
+  width: 100px;
+  border-radius: 6px;
+  border: 0.1px solid #b06ccd;
+  color: #fff;
+}
+span {
+  color: red;
+}
+
+.logout {
+  padding-bottom: 20px;
+}
